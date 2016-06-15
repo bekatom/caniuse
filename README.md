@@ -1,7 +1,10 @@
-# iCanUse.js. Detect new browser features if it's supported 
+# caniuse.js. Detect new browser features if it's supported 
 
-It will detect everything if browser supports new feature returns true || false .
-You can check may things, type it in your browser console 
+Often we are looking new html5 or js features at (caniuse.js) http://caniuse.com/ to 
+determine if i can use this feature or not for my production code.
+
+caniuse.js -> It will detect everything if browser supports new HTML5 or JS features, 
+returns true || false . You can check may things, type it in your browser console 
 ```javascript
 caniuse.audio();
 caniuse.ogg();
