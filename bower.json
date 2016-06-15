@@ -1,5 +1,6 @@
 {
   "name": "caniuse",
+  "version" : "0.0.1",
   "main": "caniuse.js",
   "homepage": "https://github.com/btomashvili/caniuse",
   "authors": [
