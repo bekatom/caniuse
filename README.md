@@ -1,4 +1,4 @@
-# caniuse.js. Detect new browser features if it's supported 
+# caniuse.js. Detecting new html5 and Js features
 
 Often we are looking new html5 or js features at [caniuse.js](http://caniuse.com/) to 
 determine if i can use this feature or not for my production code.
