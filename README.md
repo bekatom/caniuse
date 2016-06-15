@@ -4,8 +4,8 @@ Often we are looking new html5 or js features at [caniuse.js](http://caniuse.com
 determine if i can use this feature or not for my production code.
 
 caniuse.js -> It will detect everything in browser side. It can tell us if I can 
-play mp3 music, use server sent events, or use drag and drop. 
-supports or not new HTML5 or JS features, returns true || false. You can check may things, type it in your browser console 
+play mp3/ogg/wav music, use server sent events, geolocation, or if i can use drag and drop feature. 
+Returns true or false. You can check may things, type it in your browser console 
 ```javascript
 caniuse.audio();
 caniuse.ogg();
