@@ -170,8 +170,8 @@ function CanIUse(){
 
 }
 
-var canIUse =  new CanIUse();
-window.CanIUse = canIUse;
+var caniuse =  new CanIUse();
+window.caniuse = caniuse;
 
 
 })(window);
