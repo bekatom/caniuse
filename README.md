@@ -40,7 +40,6 @@ caniuse.indexDB();
 ``` 
 
 #### Installing 
-With bower
 ```bash
 bower install caniuse --save
 ```
