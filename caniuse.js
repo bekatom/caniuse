@@ -226,12 +226,23 @@
       return !!(window.SVGSVGElement && e.firstChild instanceof window.SVGSVGElement);
     };
 
-    this.undo = function(){
+    this.undo = function () {
       return typeof UndoManager !== 'undefined';
     };
 
-    this.indexDB = function(){
+    this.indexDB = function () {
       return !!window.indexedDB;
+    };
+
+    this.audioContextSupported = function () {
+
+      window.AudioContext = window.AudioContext || window.webkitAudioContext;
+      if (window.AudioContext) {
+        return true;
+      }
+      else {
+        return false;
+      }
     };
 
   }
