@@ -1,11 +1,11 @@
 # caniuse.js. Detecting new html5 and Js features
 
-Often we are looking new html5 or js features at [caniuse.js](http://caniuse.com/) to 
+Often we are looking new html5 or js features at [caniuse.js](http://caniuse.com/) to
 determine if we can use this feature or not for my production code.
 
-caniuse.js -> It will detect everything in browser side. It can tell us if I can 
-play mp3/ogg/wav music, use server sent events, geolocation, or if i can use drag and drop feature. 
-Returns true or false. You can check many things. Type it in your browser console 
+caniuse.js -> It will detect everything in browser side. It can tell us if I can
+play mp3/ogg/wav music, use server sent events, geolocation, or if i can use drag and drop feature.
+Returns true or false. You can check many things. Type it in your browser console
 ```javascript
 caniuse.audio();
 caniuse.ogg();
@@ -36,14 +36,12 @@ caniuse.svgInTextHtml();
 caniuse.undo();
 caniuse.indexDB();
 
-//// & .etc ... 
-``` 
+//// & .etc ...
+```
 
-#### Installing 
+#### Installing
 ```bash
 bower install caniuse --save
 ```
 
-
-
-
+![screen](https://raw.githubusercontent.com/btomashvili/caniuse/master/screens/caniuse.gif)
