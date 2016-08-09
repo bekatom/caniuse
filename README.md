@@ -1,6 +1,6 @@
 # caniuse.js. Detecting new html5 and Js features
 
-Often we are looking new html5 or js features at [caniuse.js](http://caniuse.com/) to
+Often we are looking new html5 or js features at [caniuse.com](http://caniuse.com/) to
 determine if we can use this feature or not for my production code.
 
 caniuse.js -> It will detect everything in browser side. It can tell us if I can
